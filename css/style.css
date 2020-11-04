@@ -1,0 +1,90 @@
+body {
+  font-family: 'Montserrat';
+  background-image: url(/assets/bg2.png);
+}
+
+p {
+  font-family: 'Lora';
+}
+
+a:visited {
+  color: rgb(194, 194, 194);
+}
+
+a:link {
+  color: rgb(194, 194, 194);
+}
+
+a:hover {
+  color: rgb(255, 187, 0);
+}
+
+a:active {
+  color: orange;
+}
+
+.jumbotron {
+  color: aliceblue;
+}
+
+.svg {
+  fill: rgb(255, 255, 255);
+}
+
+.about {
+  margin-top: -10px;
+  font-family: initial;
+}
+
+.service a {
+  text-decoration: none
+}
+
+.service a:active {
+  color: rgb(29, 104, 0);
+}
+
+.service a:hover {
+  color: rgb(29, 104, 0);
+}
+
+.service a:visited {
+  color: rgb(0, 0, 0);
+}
+
+.spacee {
+  background-color: black;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  color: aliceblue;
+  text-align: center;
+}
+
+.galery {
+  text-align: center;
+}
+
+.slideshow {
+  text-align: center;
+  background-image: url(/assets/city-1150026_960_720.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.rounded-circle {
+  width: 75px;
+}
+
+.address {
+  background-image: url(/assets/nature-3616194_1920.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+}
