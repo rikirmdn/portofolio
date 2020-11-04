@@ -8,11 +8,11 @@ p {
 }
 
 a:visited {
-  color: rgb(194, 194, 194);
+  color: rgb(138, 138, 138);
 }
 
 a:link {
-  color: rgb(194, 194, 194);
+  color: rgb(138, 138, 138);
 }
 
 a:hover {
@@ -40,16 +40,12 @@ a:active {
   text-decoration: none
 }
 
-.service a:active {
-  color: rgb(29, 104, 0);
-}
-
-.service a:hover {
-  color: rgb(29, 104, 0);
+.service a:link {
+  color: black
 }
 
 .service a:visited {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .spacee {
@@ -87,4 +83,24 @@ a:active {
 footer {
   text-align: center;
   background-color: black;
+  padding-top: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+
+}
+
+footer a {
+  text-decoration: none
+}
+
+footer a:link {
+  color: orange;
+}
+
+footer a:visited {
+  color: orange;
+}
+
+footer a:hover {
+  color: yellow;
 }
